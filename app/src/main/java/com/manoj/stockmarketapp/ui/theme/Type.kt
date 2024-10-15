@@ -1,4 +1,4 @@
-package com.plcoding.stockmarketapp.ui.theme
+package com.manoj.stockmarketapp.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
