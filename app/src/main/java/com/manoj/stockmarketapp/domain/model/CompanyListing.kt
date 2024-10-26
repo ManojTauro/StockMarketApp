@@ -1,4 +1,4 @@
-package com.manoj.stockmarketapp.data.domain.model
+package com.manoj.stockmarketapp.domain.model
 
 data class CompanyListing(
     val name: String,

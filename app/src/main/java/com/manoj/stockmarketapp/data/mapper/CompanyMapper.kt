@@ -1,6 +1,6 @@
 package com.manoj.stockmarketapp.data.mapper
 
-import com.manoj.stockmarketapp.data.domain.model.CompanyListing
+import com.manoj.stockmarketapp.domain.model.CompanyListing
 import com.manoj.stockmarketapp.data.local.CompanyListingEntity
 
 fun CompanyListingEntity.toCompanyListing(): CompanyListing {
