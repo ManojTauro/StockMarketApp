@@ -1,4 +1,4 @@
-package com.manoj.stockmarketapp.ui.theme
+package com.plcoding.stockmarketapp.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
