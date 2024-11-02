@@ -1,6 +1,8 @@
 package com.manoj.stockmarketapp.domain.repo
 
+import com.manoj.stockmarketapp.domain.model.CompanyInfo
 import com.manoj.stockmarketapp.domain.model.CompanyListing
+import com.manoj.stockmarketapp.domain.model.IntradayInfo
 import com.manoj.stockmarketapp.util.Resource
 import kotlinx.coroutines.flow.Flow
 
@@ -9,4 +11,12 @@ interface StockRepository {
         fetchFromRemote: Boolean,
         query: String
     ): Flow<Resource<List<CompanyListing>>>
+
+    suspend fun getIntradayInfo(
+        symbol: String
+    ): Resource<List<IntradayInfo>>
+
+    suspend fun getCompanyInfo(
+        symbol: String
+    ): Resource<CompanyInfo>
 }
